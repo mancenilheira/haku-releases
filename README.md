@@ -46,6 +46,8 @@ O arquivo com final **`.apk`** é o aplicativo. `SHA256SUMS.txt` serve para conf
 
 </details>
 
+O APK da beta 2 também tem um [relatório público no VirusTotal](https://www.virustotal.com/gui/file/c4bd88dfe23ff7dc256e845af317b7e96b704b203315fcb1e4a68a83eb1d89d3). Na análise de 13/10/2026, nenhum mecanismo o sinalizou como malicioso. Isso é uma verificação adicional, não uma garantia de segurança; o relatório mostra também os mecanismos que não concluíram a análise ou não suportam o formato.
+
 ## Ajude o Haku a melhorar
 
 Travou em alguma tela? **[Conte o que aconteceu](https://github.com/mancenilheira/haku-releases/issues/new?template=erro.yml)**. O modelo do aparelho e os passos até o erro ajudam muito. Confira antes se alguém já relatou o mesmo problema e retire dados pessoais das capturas.
