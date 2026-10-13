@@ -1,0 +1,33 @@
+name: Relatar um problema
+description: Conte o que aconteceu no Haku.
+title: "[Erro] "
+body:
+  - type: markdown
+    attributes:
+      value: "Obrigado por ajudar a testar a beta. Não envie senhas, tokens ou dados pessoais."
+  - type: input
+    id: version
+    attributes:
+      label: Versão do Haku
+      placeholder: "Ex.: 1.0.0-beta.1"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Aparelho e versão do Android
+      placeholder: "Ex.: modelo do celular, Android 15"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como o problema acontece?
+      description: Conte os passos, o que esperava e o que aconteceu. Se envolver um catálogo, informe o servidor e a obra.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Captura de tela ou detalhes adicionais
+      description: Opcional. Oculte informações pessoais antes de anexar.

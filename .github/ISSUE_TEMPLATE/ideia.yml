@@ -1,0 +1,18 @@
+name: Sugerir uma melhoria
+description: Uma ideia para deixar o Haku melhor de usar.
+title: "[Ideia] "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: O que você gostaria de melhorar?
+      description: Conte em que momento do uso você sentiu falta disso.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Como você imagina essa melhoria?
+      description: Pode explicar com um exemplo. Não precisa ser uma solução técnica.
+    validations:
+      required: true
