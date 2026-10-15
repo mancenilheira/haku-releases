@@ -7,6 +7,7 @@ Obrigado às pessoas que organizam informações, constroem ferramentas e dão v
 | Projeto | Uso no Haku |
 |---|---|
 | [AniList](https://anilist.co) · [API](https://docs.anilist.co/) | Obras, personagens, capas, perfis, listas, avaliações e sincronização de progresso. É a base da biblioteca. |
+| [Kitsu](https://kitsu.app) | Catálogo complementar de animes e mangás, metadados e sincronização da conta vinculada. |
 | [trace.moe](https://trace.moe) · soruly | Busca de anime a partir de uma cena enviada com confirmação. [Termos da API](https://soruly.github.io/trace.moe-api/#/terms). |
 | [AniSkip](https://github.com/aniskip/aniskip-api) | Intervalos comunitários de aberturas e encerramentos, quando há correspondência compatível. |
 | [MangaDex](https://mangadex.org) | Metadados do feed de capítulos recentes e links para a origem. |
