@@ -1,22 +1,32 @@
 # Os próximos passos do Haku
 
-O foco agora é cuidar da experiência mobile Android que já funciona. Esta lista reúne intenções discutidas durante o projeto; não é uma promessa de prazo ou de disponibilidade de serviços externos.
+O foco continua no Android. Esta lista mostra o que ainda falta validar ou desenvolver; não promete datas nem disponibilidade de serviços externos.
 
-## Cuidar do que já existe
+## Validar antes da próxima publicação
 
-- Refinar a velocidade, a retomada e a estabilidade dos downloads, mantendo limites responsáveis para as fontes e prioridade para quem está lendo.
-- Ampliar os testes em aparelhos reais, incluindo leitura longa, uso offline e interrupções de rede.
-- Continuar o polimento do leitor, do player, da busca por título/gênero/tag e dos tutoriais.
-- Melhorar a cobertura dos avisos e recursos de abertura/encerramento quando existirem dados compatíveis.
+As melhorias abaixo já estão implementadas nas builds de teste. A pendência é validar o uso real e preparar a publicação, não refazer os recursos.
 
-## Ampliar com cuidado
+- Conferir a sincronização AniList + Kitsu na primeira execução, nas seguintes e após reabrir o app, incluindo bibliotecas grandes e conflitos de nota/status.
+- Validar downloads com a tela bloqueada, remoção dos recentes e interrupções de rede, preservando os arquivos já salvos.
+- Conferir o visual renovado das listas de capítulos e episódios e os controles do leitor em diferentes tamanhos de tela.
+- Validar as correções do gateway no ambiente separado de teste antes de atualizar o serviço usado pelas versões públicas.
 
-- Oferecer outros idiomas depois de revisar interface, modelos de tradução e cobertura real de cada catálogo. Por enquanto, a experiência oferecida permanece em português.
-- Continuar a revisão de proteção do código e do gateway sem comprometer o uso legítimo ou desativar verificações para contornar problemas.
+## MangaDex e lançamentos
 
-## Mais adiante
+Integração planejada, ainda não implementada:
 
-- Concluir e testar a versão para PC antes de publicar seus arquivos de plataforma, instaladores ou releases. Ela não está pronta e não acompanha esta entrega Android.
-- Amadurecer a beta com os relatos de quem usa. O código permanece privado; este repositório é dedicado à distribuição do aplicativo.
+1. Unir MangaDex, AniList e Kitsu na busca e na ficha da obra, usando correspondências verificadas e evitando duplicatas. Títulos parecidos, por si só, não serão suficientes para unir obras.
+2. Ampliar a área de lançamentos com capítulos novos das obras acompanhadas, indicando idioma e fonte e diferenciando traduções do mesmo capítulo.
+3. Integrar as obras disponíveis ao leitor e aos downloads do Haku, com a mesma interface e progresso local. Tratar capítulos extras, decimais e numeração por volume.
+4. Avaliar a conexão da conta MangaDex e a sincronização com as demais bibliotecas. Autenticação e campos compatíveis precisam ser confirmados na API antes de definir o alcance da integração. Para dados compatíveis, manter o maior progresso e pedir uma escolha quando nota ou status entrarem em conflito.
 
-As decisões podem mudar com os testes e com a disponibilidade das integrações. Créditos e licenças de terceiros serão mantidos em cada etapa.
+A implementação começa pelo catálogo, pelos lançamentos e pela leitura. A sincronização entre as três contas vem depois da validação técnica, respeitando os limites e as condições de cada serviço.
+
+## Outras pendências
+
+- Medir e melhorar a velocidade dos downloads quando houver gargalos identificados, respeitando os limites das fontes.
+- Ampliar a cobertura dos avisos e recursos de abertura/encerramento quando existirem dados compatíveis.
+- Revisar idiomas, interface e modelos de tradução antes de ampliar a experiência oferecida em português.
+- Concluir e testar a versão para PC antes de publicar instaladores ou releases dessa plataforma.
+
+O código permanece privado; este repositório é dedicado à distribuição do aplicativo. O roadmap pode mudar com os testes e a disponibilidade das integrações. Créditos e licenças de terceiros serão mantidos.
