@@ -2,14 +2,13 @@
 
 O foco continua no Android. Esta lista mostra o que ainda falta validar ou desenvolver; não promete datas nem disponibilidade de serviços externos.
 
-## Validar antes da próxima publicação
+## Acompanhar após a beta 5
 
-As melhorias abaixo já estão implementadas nas builds de teste. A pendência é validar o uso real e preparar a publicação, não refazer os recursos.
+A busca e a sincronização AniList + Kitsu, a exclusão de downloads, os ajustes do leitor e o visual das listas de capítulos/episódios foram entregues na beta 5. As correções do gateway também foram publicadas.
 
-- Conferir a sincronização AniList + Kitsu na primeira execução, nas seguintes e após reabrir o app, incluindo bibliotecas grandes e conflitos de nota/status.
-- Validar downloads com a tela bloqueada, remoção dos recentes e interrupções de rede, preservando os arquivos já salvos.
-- Conferir o visual renovado das listas de capítulos e episódios e os controles do leitor em diferentes tamanhos de tela.
-- Validar as correções do gateway no ambiente separado de teste antes de atualizar o serviço usado pelas versões públicas.
+- Medir a sincronização automática com bibliotecas grandes e acompanhar conflitos de nota/status em uso real.
+- Acompanhar downloads em diferentes aparelhos, com bloqueio de tela, encerramento do processo e interrupções de rede.
+- Investigar novos relatos usando os registros de diagnóstico do app e do gateway.
 
 ## MangaDex e lançamentos
 
